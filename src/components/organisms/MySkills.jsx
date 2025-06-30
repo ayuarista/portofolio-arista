@@ -9,7 +9,7 @@ import { FaFigma } from "react-icons/fa";
 import { FaLanguage } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { RiFlutterFill } from "react-icons/ri";
-import { FaPython } from "react-icons/fa";
+import { FaPython, FaLaravel } from "react-icons/fa";
 
 const Data = [
   {
@@ -47,6 +47,10 @@ const Data = [
   {
     icons: <FaPython />,
     skills: "Python",
+  },
+  {
+    icons: <FaLaravel />,
+    skills: "Laravel",
   },
 ];
 const MySkills = () => {

@@ -7,7 +7,7 @@ const Experience = (props) => {
   }, []);
   return (
     <div className="w-full md:w-[80%] lg:w-[95%] mx-auto" data-aos="zoom-in-up">
-      <div className="flex flex-col rounded-md p-5 w-full border border-gray-400 hover:border-none hover:bg-[#27272A] transition-all duration-500 cursor-pointer ease-in-out">
+      <div className="flex flex-col rounded-md p-5 w-full border border-gray-400 hover:border-none hover:bg-[#27272A] transition-all duration-500 ease-in-out">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-2">
           <div className="flex items-center gap-5">
             <span className="text-black p-2 rounded text-xl bg-white">
