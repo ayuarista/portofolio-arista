@@ -36,7 +36,7 @@ const Home = () => {
             Based In <span className="font-bold">Indonesia.</span>
           </h1>
           <p className="text-gray-400 text-[13px] md:text-sm max-w-xl mt-4 text-center lg:text-justify" data-aos="fade-up">
-            Hi! as a dedicated eleventh-grade student in Software Engineering at
+            Hi! as a dedicated twelve-grade student in Software Engineering at
             Vocational High School, I am passionate about web development and
             actively expanding my technical skills in front-end technologies.
           </p>
