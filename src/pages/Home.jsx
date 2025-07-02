@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import profile from "../assets/arista.jpg";
 import me from "../assets/profile.jpg";
 import AOS from "aos";
@@ -16,26 +16,38 @@ import MySkills from "../components/organisms/MySkills";
 const Home = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1500, 
+      duration: 1500,
     });
   }, []);
   return (
     <div className="pt-24">
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center mx-4 lg:mx-16 gap-8">
         <div className="text-center lg:text-left">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extralight" data-aos="fade-down">
+          <h1
+            className="text-4xl md:text-5xl lg:text-6xl font-extralight"
+            data-aos="fade-down"
+          >
             Hello I'am <span className="font-bold">Ayu Arista</span>
           </h1>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-1" data-aos="fade-down">
+          <h1
+            className="text-4xl md:text-5xl lg:text-6xl font-bold mt-1"
+            data-aos="fade-down"
+          >
             Frontend{" "}
             <span className="font-poppins text-transparent custom-outline">
               Developer
             </span>
           </h1>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extralight mt-1"data-aos="fade-up">
+          <h1
+            className="text-4xl md:text-5xl lg:text-6xl font-extralight mt-1"
+            data-aos="fade-up"
+          >
             Based In <span className="font-bold">Indonesia.</span>
           </h1>
-          <p className="text-gray-400 text-[13px] md:text-sm max-w-xl mt-4 text-center lg:text-justify" data-aos="fade-up">
+          <p
+            className="text-gray-500 text-[14px] md:text-sm max-w-xl mt-4 text-center lg:text-justify"
+            data-aos="fade-up"
+          >
             Hi! as a dedicated twelve-grade student in Software Engineering at
             Vocational High School, I am passionate about web development and
             actively expanding my technical skills in front-end technologies.
@@ -43,13 +55,13 @@ const Home = () => {
           <SocialMedia />
         </div>
         <div className="flex justify-center">
-          <img
-            src={profile}
-            alt="Profile"
-            className="w-52 md:w-64 lg:w-80 rounded-md"
-            data-aos="zoom-in"
-          />
-        </div>
+            <img
+              src={profile}
+              alt="Profile"
+              className="w-52 md:w-64 lg:w-80 rounded-md"
+              data-aos="zoom-in"
+            />
+          </div>
       </div>
 
       <div id="skills" className="scroll-mt-32">
@@ -66,7 +78,10 @@ const Home = () => {
       <div id="experience" className="scroll-mt-20">
         <div className="bg-black pb-14">
           <div className="pt-10">
-            <h1 className="text-3xl text-center text-white" data-aos="fade-down">
+            <h1
+              className="text-3xl text-center text-white"
+              data-aos="fade-down"
+            >
               My <span className="font-bold">Experience</span>
             </h1>
           </div>

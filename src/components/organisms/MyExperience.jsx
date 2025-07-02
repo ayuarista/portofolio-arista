@@ -22,7 +22,7 @@ const Data = [
     icons: <FiFigma />,
     title: "Finalist UI design competition at Primakara University",
     date: "May 2025",
-    desc: "I participated in a national UI Design competition held by Timedoor Academy - PT Timedoor Indonesia. I got 2nd place from this Website Design competition.",
+    desc: "As an aspiring front-end developer, I achieved finalist status in the UI Design category at Primakara University’s SiteFest on 5 June 2025, where I crafted high-fidelity using Figma",
   },
   {
     icons: <FaReact />,
