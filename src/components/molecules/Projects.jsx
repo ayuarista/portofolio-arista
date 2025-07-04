@@ -1,12 +1,6 @@
 import React, { useEffect } from "react";
 import { IoOpenOutline } from "react-icons/io5";
-import FindJobs from "../../assets/FindJobs.png";
-import echolife from "../../assets/echolife.png";
-import herecycle from "../../assets/herecycle.png";
-import tkj from "../../assets/tkj.png";
-import baliwoosh from "../../assets/baliwoosh.png";
-import AOS from "aos"
-import aos from "aos/dist/aos.css"
+import AOS from "aos";
 
 const projectsData = [
   {
@@ -51,20 +45,44 @@ const projectsData = [
   },
   {
     id: 6,
+    title: "Stylist",
+    description:
+      "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
+    image: require("../../assets/stylist.png"),
+    link: "https://stylist-co.netlify.app/"
+  },
+  {
+    id: 7,
+    title: "Enhypen Group",
+    description:
+      "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
+    image: require("../../assets/enhypen.png"),
+    link: "https://enhypen-group.netlify.app/"
+  },
+  {
+    id: 8,
+    title: "Guide-line",
+    description:
+      "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
+    image: require("../../assets/guide-line.png"),
+    link: "https://guide-line.netlify.app/"
+  },
+  {
+    id: 9,
     title: "Designing UI-UX FindJobs at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
     image: require("../../assets/figma-findjobs.png"),
   },
   {
-    id: 7,
+    id: 10,
     title: "Designing UI-UX SNKRS at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
     image: require("../../assets/snkrs.png"),
   },
   {
-    id: 8,
+    id: 11,
     title: "Designing UI-UX Baliwoosh at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
@@ -87,14 +105,12 @@ const Projects = () => {
           } items-center gap-8`}
           data-aos="fade-up"
         >
-          {/* Gambar */}
           <div className="relative w-full lg:w-[30rem] h-52 bg-cover group overflow-hidden">
             <img
               src={project.image}
               alt={project.title}
               className="w-full h-full object-cover rounded-lg"
             />
-            {/* Overlay saat hover */}
             <div className="absolute inset-x-0 p-[50px] lg:p-[40px] hover:cursor-pointer bottom-[-100%] bg-blend-multiply bg-black bg-opacity-45 backdrop-blur-sm flex flex-col items-center justify-center gap-4 rounded-lg group-hover:bottom-0 transition-all duration-700 ease-in-out">
               <h2 className="text-white text-lg text-center lg:text-xl font-semibold font-poppins">{project.title}</h2>
               <a
@@ -108,7 +124,6 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Teks */}
           <div className="flex flex-col gap-3 lg:w-1/2">
             <h1 className="text-white font-semibold text-3xl font-poppins">
               {project.title}
@@ -127,13 +142,10 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Garis Pembatas */}
           <div className="flex flex-col items-center lg:w-1/12 hidden md:block">
             <div className="relative flex flex-col items-center">
-              {/* Garis Vertikal */}
               <div className="h-full w-1 bg-gray-500"></div>
 
-              {/* Lingkaran */}
               <div className="absolute -top-4 lg:top-1/2 transform lg:-translate-y-1/2 w-14 h-14 bg-gray-900 border border-gray-400 rounded-full flex items-center justify-center">
                 <span className="text-white font-bold lg:text-xl">
                   {String(project.id).padStart(2, "0")}
