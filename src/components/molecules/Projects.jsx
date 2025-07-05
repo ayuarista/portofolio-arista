@@ -69,20 +69,27 @@ const projectsData = [
   },
   {
     id: 9,
+    title: "Howard",
+    description: "Howard is a website that provides a variety of products, including clothing, accessories, and home decor. The website features a clean and modern design, making it easy for users to navigate and find what they are looking for. Howard offers a wide range of products at competitive prices, with a focus on quality and customer satisfaction.",
+    image: require("../../assets/howard.png"),
+    link: "https://howard-id.netlify.app/"
+  },
+  {
+    id: 10,
     title: "Designing UI-UX FindJobs at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
     image: require("../../assets/figma-findjobs.png"),
   },
   {
-    id: 10,
+    id: 11,
     title: "Designing UI-UX SNKRS at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
     image: require("../../assets/snkrs.png"),
   },
   {
-    id: 11,
+    id: 12,
     title: "Designing UI-UX Baliwoosh at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
