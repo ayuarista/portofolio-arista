@@ -76,20 +76,27 @@ const projectsData = [
   },
   {
     id: 10,
+    title: "Course Era",
+    description: "Course Era is a website",
+    image: require("../../assets/course-era.png"),
+    link: "https://course-era.netlify.app/"
+  },
+  {
+    id: 11,
     title: "Designing UI-UX FindJobs at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
     image: require("../../assets/figma-findjobs.png"),
   },
   {
-    id: 11,
+    id: 12,
     title: "Designing UI-UX SNKRS at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
     image: require("../../assets/snkrs.png"),
   },
   {
-    id: 12,
+    id: 13,
     title: "Designing UI-UX Baliwoosh at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
