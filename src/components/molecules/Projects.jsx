@@ -63,7 +63,7 @@ const projectsData = [
     id: 8,
     title: "Guide-line",
     description:
-      "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
+      "Guide Line is a guide website for tourists to find popular places in World. Guide website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
     image: require("../../assets/guide-line.png"),
     link: "https://guide-line.netlify.app/"
   },
