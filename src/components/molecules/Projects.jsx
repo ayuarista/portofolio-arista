@@ -83,6 +83,13 @@ const projectsData = [
   },
   {
     id: 11,
+    title: "Deep Talk",
+    description: "Deep Talk is a website that provides a platform for users to engage in meaningful conversations and discussions on various topics. The website features a user-friendly interface, allowing users to easily navigate through different discussion threads and participate in conversations. Deep Talk aims to foster a community of open-minded individuals who are interested in sharing their thoughts and ideas.",
+    image: require("../../assets/deep-talk.png"),
+    link: "https://deep-talk.netlify.app/"
+  },
+  {
+    id: 11,
     title: "Designing UI-UX FindJobs at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
