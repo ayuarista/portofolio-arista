@@ -47,7 +47,7 @@ const projectsData = [
     id: 6,
     title: "Stylist",
     description:
-      "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
+      "Stylist is a e-commerce simple website for fashion products. This website provides a variety of fashion products, including clothing, accessories, and home decor. The website features a clean and modern design, making it easy for users to navigate and find what they are looking for. Stylist offers a wide range of products at competitive prices, with a focus on quality and customer satisfaction.",
     image: require("../../assets/stylist.png"),
     link: "https://stylist-co.netlify.app/"
   },
@@ -55,7 +55,7 @@ const projectsData = [
     id: 7,
     title: "Enhypen Group",
     description:
-      "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
+      "Enhypen is a enhypen group website that provides information about the group, including their members, discography, and latest news. The website features a clean and modern design, making it easy for fans to navigate and find the information they are looking for. Enhypen Group aims to be a comprehensive resource for fans of the group, providing them with all the information they need in one place.",
     image: require("../../assets/enhypen.png"),
     link: "https://enhypen-group.netlify.app/"
   },
