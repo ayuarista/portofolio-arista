@@ -6,7 +6,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 const Footer = () => {
   return (
-    <div>
       <footer className="bg-black w-full">
         <div className="pt-7 mx-12 text-center flex justify-center items-center flex-col">
           <h1 className="text-xl font-bold text-white">Ayu Arista</h1>
@@ -89,7 +88,6 @@ const Footer = () => {
           <p className="text-white text-sm">© 2024. By Ayu Arista </p>
         </div>
       </footer>
-    </div>
   );
 };
 

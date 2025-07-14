@@ -4,7 +4,7 @@ import cv from "../assets/cv.pdf";
 import { HiOutlineSave } from "react-icons/hi";
 const Header = () => {
   return (
-    <div className="hidden md:hidden lg:block xl:block ">
+    <header className="hidden md:hidden lg:block xl:block ">
       <div className="flex justify-between fixed w-full z-50 p-5 px-10 items-center bg-white">
         <div className="flex items-center gap-3">
           {/* <img src={logo} alt="" className="w-8" /> */}
@@ -57,7 +57,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
