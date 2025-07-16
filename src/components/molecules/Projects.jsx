@@ -76,34 +76,41 @@ const projectsData = [
   },
   {
     id: 10,
+    title: "Nusa Kita",
+    description: "Nusa Kita is a Website to tell about culture in Indonesia. ",
+    image: require("../../assets/howard.png"),
+    link: "https://howard-id.netlify.app/"
+  },
+  {
+    id: 11,
     title: "Course Era",
     description: "Course Era is a website",
     image: require("../../assets/course-era.png"),
     link: "https://course-era.netlify.app/"
   },
   {
-    id: 11,
+    id: 12,
     title: "Deep Talk",
     description: "Deep Talk is a website that provides a platform for users to engage in meaningful conversations and discussions on various topics. The website features a user-friendly interface, allowing users to easily navigate through different discussion threads and participate in conversations. Deep Talk aims to foster a community of open-minded individuals who are interested in sharing their thoughts and ideas.",
     image: require("../../assets/deep-talk.png"),
     link: "https://deep-talk.netlify.app/"
   },
   {
-    id: 12,
+    id: 13,
     title: "Designing UI-UX FindJobs at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
     image: require("../../assets/figma-findjobs.png"),
   },
   {
-    id: 13,
+    id: 14,
     title: "Designing UI-UX SNKRS at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
     image: require("../../assets/snkrs.png"),
   },
   {
-    id: 14,
+    id: 15,
     title: "Designing UI-UX Baliwoosh at Figma",
     description:
       "Baliwoosh is a guide website for tourists to find popular places in Bali. Baliwoosh website provides destinations, staycations, and famous restaurants in Bali. Not only that, there are already listed how much the price is, as well as maps of the place that the user chooses.",
