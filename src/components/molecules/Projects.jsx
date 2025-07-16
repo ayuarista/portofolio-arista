@@ -77,7 +77,7 @@ const projectsData = [
   {
     id: 10,
     title: "Nusa Kita",
-    description: "Nusa Kita is a Website to tell about culture in Indonesia. ",
+    description: "Nusa Kita is a Website to tell more about culture in Indonesia. ",
     image: require("../../assets/howard.png"),
     link: "https://howard-id.netlify.app/"
   },
