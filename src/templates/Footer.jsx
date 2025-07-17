@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FiGithub } from "react-icons/fi";
@@ -68,19 +69,19 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-5 mt-5">
             <div className="p-3 border hpver:cursor-pointer border-white hover:border-none hover:bg-white group hover:text-black rounded-full transition-all ease-in-out duration-500">
-              <a href="https://www.instagram.com/aayuaristaa/" target="_blank">
+              <Link to="https://www.instagram.com/aayuaristaa/" target="_blank">
                 <FaInstagram className="text-white group-hover:text-black text-lg" />
-              </a>
+              </Link>
             </div>
             <div className="p-3 border hpver:cursor-pointer border-white hover:border-none hover:bg-white group hover:text-black rounded-full transition-all ease-in-out duration-500">
-              <a href="https://x.com/sukaaniki" target="_blank">
+              <Link to="https://x.com/sukaaniki" target="_blank">
                 <BsTwitterX className="text-white group-hover:text-black text-lg" />
-              </a>
+              </Link>
             </div>
             <div className="p-3 border hpver:cursor-pointer border-white hover:border-none hover:bg-white group hover:text-black rounded-full transition-all ease-in-out duration-500">
-              <a href="https://github.com/ayuarista" target="_blank">
+              <Link to="https://github.com/ayuarista" target="_blank">
                 <FiGithub className="text-white group-hover:text-black text-lg" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
