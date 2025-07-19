@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { Link } from "react-router-dom";
 import cv from "../assets/cv.pdf";
 import { HiOutlineSave } from "react-icons/hi";
 const Header = () => {
@@ -15,34 +14,34 @@ const Header = () => {
           <nav>
             <ul className="flex justify-center items-center gap-5 font-semibold text-sm">
               <li>
-                <Link to="#skills" className="relative group py-1">
+                <a href="#skills" className="relative group py-1">
                   Skills
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black transition-all duration-700 group-hover:w-full rounded-2xl"></span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#experience" className="relative group py-1">
+                <a href="#experience" className="relative group py-1">
                   Experience
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black transition-all duration-700 group-hover:w-full rounded-2xl"></span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#about" className="relative group py-1">
+                <a href="#about" className="relative group py-1">
                     About Me
                     <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black transition-all duration-700 group-hover:w-full rounded-2xl"></span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#projects" className="relative group py-1">
+                <a href="#projects" className="relative group py-1">
                   Project
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black transition-all duration-700 group-hover:w-full rounded-2xl"></span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#contact" className="relative group py-1">
+                <a href="#contact" className="relative group py-1">
                   Contact
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-black transition-all duration-700 group-hover:w-full rounded-2xl"></span>
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
